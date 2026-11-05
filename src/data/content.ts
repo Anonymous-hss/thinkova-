@@ -51,7 +51,7 @@ export const safetyCommitments = [
 export const joiningSteps = [
   { title: "Get your school code", body: "It is in your school’s circular or WhatsApp message.", icon: Landmark },
   { title: "Enrol online", body: "Two minutes: your child’s name, grade and your WhatsApp number.", icon: LaptopMinimal },
-  { title: "Pay ₹2,500 to join", body: "UPI, card or net banking. Paid to LvlUp, not to the school.", icon: Award },
+  { title: "Pay ₹2,500 to join", body: "UPI, card or net banking. Paid to Thinkova, not to the school.", icon: Award },
   { title: "Meet us online", body: "A 30-minute parent session before level 1. Ask us anything.", icon: UsersRound },
   { title: "Level up each week", body: "Updates after levels 2, 4 and 6. Second payment before level 5.", icon: Footprints },
   { title: "Demo day", body: "Your child presents their AI helper to you, at school.", icon: MonitorPlay },

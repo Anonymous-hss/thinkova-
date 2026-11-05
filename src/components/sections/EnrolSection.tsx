@@ -348,7 +348,7 @@ export function EnrolSection() {
                     className="mt-1 size-4 rounded border-gray-300 text-brand focus:ring-brand"
                   />
                   <label htmlFor="consent" className="text-xs leading-relaxed text-ink/75">
-                    I am this child's parent or guardian. I agree to my child taking part in LvlUp and to LvlUp
+                    I am this child's parent or guardian. I agree to my child taking part in Thinkova and to Thinkova
                     keeping these details to run the course. Read the{" "}
                     <a href="/legal/consent" className="underline underline-offset-2 hover:text-ink">
                       consent form

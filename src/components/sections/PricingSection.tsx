@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { ArrowRight, Check } from "lucide-react";
@@ -30,11 +30,11 @@ export function PricingSection() {
           {/* Main Pricing Card */}
           <ScrollReveal delay={80}>
             <article className="overflow-hidden rounded-3xl border-t-2 border-t-brand bg-gradient-to-b from-[#181920] to-[#121318] p-6 text-white shadow-2xl sm:p-8 lg:p-9">
-            <p className="font-mono text-xs text-muted-dark">LvlUp · all 8 levels</p>
+            <p className="font-mono text-xs text-muted-dark">Thinkova · all 8 levels</p>
 
             <div className="mt-3 flex items-center gap-2.5">
               <span className="text-sm text-muted-dark">
-                Standard fee <span className="line-through">₹15,000</span>
+                Standard fee <span className="line-through">â‚¹15,000</span>
               </span>
               <span className="inline-block rounded-full bg-[#109e58] px-2.5 py-0.5 text-[11px] font-bold text-white">
                 Up to 70% off
@@ -43,7 +43,7 @@ export function PricingSection() {
 
             <div className="mt-4 flex flex-wrap items-baseline gap-x-3">
               <span className="font-display text-[64px] font-normal leading-none tracking-[-0.03em] sm:text-[76px]">
-                {plan === "full" ? "₹4,499" : "₹4,999"}
+                {plan === "full" ? "â‚¹4,499" : "â‚¹4,999"}
               </span>
               <span className="text-sm text-muted-dark">
                 {plan === "full" ? "with your school code, paid in full" : "with your school code, paid in two parts"}
@@ -76,11 +76,11 @@ export function PricingSection() {
                     <span className="text-sm font-semibold text-white">Pay in full</span>
                   </div>
                   <span className="rounded-md bg-[#109e58] px-2 py-0.5 text-[10px] font-bold text-white">
-                    Save ₹500
+                    Save â‚¹500
                   </span>
                 </div>
                 <div className="mt-3">
-                  <span className="block text-[24px] font-bold leading-none text-white">₹4,499</span>
+                  <span className="block text-[24px] font-bold leading-none text-white">â‚¹4,499</span>
                   <span className="mt-1 block text-xs text-muted-dark">One payment when you enrol</span>
                 </div>
               </button>
@@ -110,8 +110,8 @@ export function PricingSection() {
                   </div>
                 </div>
                 <div className="mt-3">
-                  <span className="block text-[24px] font-bold leading-none text-white">₹4,999</span>
-                  <span className="mt-1 block text-xs text-muted-dark">₹2,500 now, ₹2,499 by level 5</span>
+                  <span className="block text-[24px] font-bold leading-none text-white">â‚¹4,999</span>
+                  <span className="mt-1 block text-xs text-muted-dark">â‚¹2,500 now, â‚¹2,499 by level 5</span>
                 </div>
               </button>
             </div>
@@ -136,12 +136,12 @@ export function PricingSection() {
               href={siteConfig.enrolUrl}
               className="mt-8 flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-brand-gradient px-6 py-3.5 text-center text-[15px] font-bold text-ink shadow-glow transition-all duration-200 transform-gpu hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(255,107,44,0.4)] active:scale-[0.96] active:translate-y-0 cursor-pointer"
             >
-              <span>{plan === "full" ? "Enrol and pay ₹4,499" : "Enrol and pay ₹2,500 now"}</span>
+              <span>{plan === "full" ? "Enrol and pay â‚¹4,499" : "Enrol and pay â‚¹2,500 now"}</span>
               <ArrowRight className="size-4" />
             </a>
 
             <p className="mt-4 text-xs leading-relaxed text-muted-dark">
-              Partner school prices. Pay by UPI, card or net banking. Fees are paid to LvlUp, not to your school.
+              Partner school prices. Pay by UPI, card or net banking. Fees are paid to Thinkova, not to your school.
             </p>
             </article>
           </ScrollReveal>
@@ -170,9 +170,9 @@ export function PricingSection() {
               </article>
 
               <aside className="rounded-2xl border border-black/[0.08] bg-white/50 p-6 sm:p-7 backdrop-blur-sm">
-                <h3 className="text-[15px] font-semibold text-ink">What you won’t pay for</h3>
+                <h3 className="text-[15px] font-semibold text-ink">What you wonâ€™t pay for</h3>
                 <p className="mt-3 text-[15px] leading-relaxed text-muted">
-                  A laptop at home, extra kits, app subscriptions or a certificate fee. Classes use your school’s computer lab.
+                  A laptop at home, extra kits, app subscriptions or a certificate fee. Classes use your schoolâ€™s computer lab.
                 </p>
               </aside>
             </div>

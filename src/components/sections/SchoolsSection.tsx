@@ -59,7 +59,7 @@ export function SchoolsSection() {
             id="schools-title"
             className="font-display text-[38px] font-normal leading-[1.06] tracking-[-0.03em] text-white sm:text-[46px] lg:text-[52px]"
           >
-            Bring LvlUp to your school.
+            Bring Thinkova to your school.
           </h2>
 
           <p className="mt-5 max-w-[540px] text-[16px] sm:text-[17px] leading-relaxed text-white/70">
@@ -96,8 +96,8 @@ export function SchoolsSection() {
             </a>
 
             <a
-              href="/downloads/LvlUp-Eight-Week-Curriculum.pdf"
-              download="LvlUp Eight-Week Curriculum.pdf"
+              href="/downloads/Thinkova-Eight-Week-Curriculum.pdf"
+              download="Thinkova Eight-Week Curriculum.pdf"
               className="flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-black/40 px-6 py-3.5 text-center text-[15px] font-medium text-white backdrop-blur-sm transition-all duration-200 transform-gpu hover:border-white/30 hover:bg-white/10 active:scale-95 cursor-pointer"
             >
               <span>Download the school pack (PDF)</span>
@@ -140,8 +140,8 @@ export function SchoolsSection() {
                 <h4 className="text-sm font-semibold text-ink">While you wait</h4>
                 <p className="mt-1.5 text-xs sm:text-[13px] leading-relaxed text-ink/75">
                   <a
-                    href="/downloads/LvlUp-Eight-Week-Curriculum.pdf"
-                    download="LvlUp Eight-Week Curriculum.pdf"
+                    href="/downloads/Thinkova-Eight-Week-Curriculum.pdf"
+                    download="Thinkova Eight-Week Curriculum.pdf"
                     className="underline underline-offset-2 hover:text-ink font-medium"
                   >
                     Download the school pack (PDF)

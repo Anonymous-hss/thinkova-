@@ -1,7 +1,7 @@
-# LvlUp website
+# Thinkova website
 
 Next.js (App Router) · TypeScript (strict) · Tailwind CSS 3 · React Hook Form + Zod · Lucide.
-A one-page marketing site rebuilt from `LvlUp website · Desktop 1440.pdf` and the supplied section images.
+A one-page marketing site rebuilt from `Thinkova website · Desktop 1440.pdf` and the supplied section images.
 
 ## Prerequisites
 Node.js 20+ and npm 10+.

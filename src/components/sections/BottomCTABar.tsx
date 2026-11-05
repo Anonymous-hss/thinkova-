@@ -13,7 +13,7 @@ export function BottomCTABar() {
         {/* Left: school + batch info */}
         <div className="flex items-center gap-2">
           <span className="text-sm font-semibold text-white">
-            LvlUp at {siteConfig.schoolName}
+            Thinkova at {siteConfig.schoolName}
           </span>
           <span className="text-xs text-[#A7ACB8]">
             Batch starts {siteConfig.batchStartDate} · 90 min a week

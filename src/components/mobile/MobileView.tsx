@@ -478,7 +478,7 @@ className="flex h-[50px] w-full items-center justify-center gap-2.5 rounded-[6px
               id="mobile-solution-title"
               className="font-display text-[28px] font-medium leading-[32px] tracking-[-0.015em] text-white"
             >
-              LvlUp turns AI users into thoughtful builders.
+              Thinkova turns AI users into thoughtful builders.
             </h2>
           </ScrollReveal>
 
@@ -659,8 +659,8 @@ className="flex h-[50px] w-full items-center justify-center gap-2.5 rounded-[6px
         {/* Download Curriculum PDF Button */}
         <ScrollReveal delay={100}>
           <a
-            href="/downloads/LvlUp-Eight-Week-Curriculum.pdf"
-            download="LvlUp Eight-Week Curriculum.pdf"
+            href="/downloads/Thinkova-Eight-Week-Curriculum.pdf"
+            download="Thinkova Eight-Week Curriculum.pdf"
             target="_blank"
                   rel="noopener noreferrer"
 className="mt-5 flex h-[47px] w-full items-center justify-center gap-2.5 rounded-[10px] border-[1.5px] border-[#0B0C0F] bg-white font-semibold text-[14px] leading-[20px] text-[#0B0C0F] shadow-sm transition hover:bg-black/5 active:scale-[0.98]"
@@ -803,7 +803,7 @@ className="mt-5 flex h-[47px] w-full items-center justify-center gap-2.5 rounded
         <div className="mx-auto w-full max-w-[350px]">
           <ScrollReveal>
             <h2 className="font-display text-[28px] font-medium leading-[32px] tracking-[-0.015em] text-[#0B0C0F]">
-              Is LvlUp right for your child?
+              Is Thinkova right for your child?
             </h2>
           </ScrollReveal>
 
@@ -969,7 +969,7 @@ className="font-medium underline underline-offset-2 hover:text-[#FF6B2C]"
                 </span>
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-[#1e2028] px-2.5 py-1 text-[11px] text-white font-medium w-fit">
                   <span className="flex size-3.5 items-center justify-center rounded-full bg-[#ff5520] text-white text-[8px] font-bold">✓</span>
-                  LvlUp trained
+                  Thinkova trained
                 </span>
               </div>
             </div>
@@ -996,7 +996,7 @@ className="font-medium underline underline-offset-2 hover:text-[#FF6B2C]"
                 </span>
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-[#1e2028] px-2.5 py-1 text-[11px] text-white font-medium w-fit">
                   <span className="flex size-3.5 items-center justify-center rounded-full bg-[#ff5520] text-white text-[8px] font-bold">✓</span>
-                  LvlUp trained
+                  Thinkova trained
                 </span>
               </div>
             </div>
@@ -1023,7 +1023,7 @@ className="font-medium underline underline-offset-2 hover:text-[#FF6B2C]"
                 </span>
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-[#1e2028] px-2.5 py-1 text-[11px] text-white font-medium w-fit">
                   <span className="flex size-3.5 items-center justify-center rounded-full bg-[#ff5520] text-white text-[8px] font-bold">✓</span>
-                  LvlUp trained
+                  Thinkova trained
                 </span>
               </div>
             </div>
@@ -1467,7 +1467,7 @@ className="font-medium underline underline-offset-2 hover:text-[#FF6B2C]"
             </button>
 
             <p className="mt-3 text-center text-[12px] text-[#8e9099]">
-              Partner school prices. Paid to LvlUp, not your school.
+              Partner school prices. Paid to Thinkova, not your school.
             </p>
           </div>
         </ScrollReveal>
@@ -1908,7 +1908,7 @@ className="underline text-black font-normal hover:text-[#FF6B2C]">{siteConfig.wh
         <div className="mx-auto w-full max-w-[350px]">
           <ScrollReveal>
             <h2 id="mobile-school-banner" className="font-display text-[28px] font-medium leading-[32px] tracking-[-0.015em] text-white">
-              Bring LvlUp to your school.
+              Bring Thinkova to your school.
             </h2>
             <p className="mt-2.5 text-[15.5px] font-normal leading-[24px] text-[#A7ACB8]">
               We bring the tutors, lessons and parent updates. You host one class a week in your lab.
@@ -2087,8 +2087,8 @@ className="underline text-black font-normal hover:text-[#FF6B2C]">{siteConfig.wh
         {/* Download School Pack Link */}
         <ScrollReveal delay={200}>
           <a
-            href="/downloads/LvlUp-Eight-Week-Curriculum.pdf"
-            download="LvlUp Eight-Week Curriculum.pdf"
+            href="/downloads/Thinkova-Eight-Week-Curriculum.pdf"
+            download="Thinkova Eight-Week Curriculum.pdf"
             className="mt-6 inline-flex items-center gap-2 text-[13px] font-semibold text-white underline underline-offset-4 hover:text-[#FF6B2C] transition"
           >
             <Download className="size-4 stroke-[2.5]" />
@@ -2143,7 +2143,7 @@ className="hover:text-[#ff5520] transition">
 
           {/* Legal & Copyright */}
           <p className="text-[12px] sm:text-[13px] text-[#6b7280] flex flex-wrap items-center gap-1.5 leading-relaxed">
-            <span>&copy; 2026 LvlUp</span>
+            <span>&copy; 2026 Thinkova</span>
             <span>&middot;</span>
             <Link className="hover:text-white transition" href={legalLinks.privacy}>Privacy</Link>
             <span>&middot;</span>

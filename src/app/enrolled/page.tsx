@@ -3,8 +3,8 @@ import { Footer } from "@/components/layout/Footer";
 import { EnrolSuccessView } from "@/components/sections/EnrolSuccessView";
 
 export const metadata = {
-  title: "Enrolment Complete · LvlUp",
-  description: "Your child is enrolled in LvlUp.",
+  title: "Enrolment Complete · Thinkova",
+  description: "Your child is enrolled in Thinkova.",
 };
 
 export default function EnrolledPage() {

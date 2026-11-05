@@ -47,7 +47,7 @@ export const legalLinks = {
   refunds: "/legal/refunds",
   terms: "/legal/terms",
   partnerTerms: "/legal/partner-terms",
-  curriculum: "/downloads/LvlUp-Eight-Week-Curriculum.pdf",
+  curriculum: "/downloads/Thinkova-Eight-Week-Curriculum.pdf",
 } as const;
 
 export const legalPages: Record<string, { title: string; note: string }> = {

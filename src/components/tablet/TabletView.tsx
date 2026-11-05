@@ -221,15 +221,12 @@ export function TabletView() {
       ───────────────────────────────────────────────────────────── */}
       <header className="sticky top-0 z-50 w-full border-b border-[#23262F]/60 bg-[#0B0C0F]/95 backdrop-blur-md">
         <div className="mx-auto flex h-[72px] max-w-[768px] items-center justify-between px-10">
-          {/* LvlUp Logo */}
+          {/* Thinkova Logo */}
           <div
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="flex cursor-pointer items-center gap-[10px]"
           >
-            <Image src="/icons/logo.svg" alt="LvlUp" width={34} height={34} priority />
-            <span className="font-display text-[23.8px] font-semibold tracking-[-0.03em] text-white">
-              Lvl<span className="text-[#FF6B2C]">Up</span>
-            </span>
+            <Image src="/thinkova-logo.svg" alt="Thinkova" width={139} height={34} priority className="h-8 w-auto object-contain" />
           </div>
 
           {/* Right CTA + Menu Button */}
@@ -577,7 +574,7 @@ export function TabletView() {
         <ScrollReveal>
           <div className="w-full">
             <h2 className="font-display text-[36px] font-normal leading-[41px] tracking-[-0.015em] text-white">
-              LvlUp turns AI users into thoughtful builders.
+              Thinkova turns AI users into thoughtful builders.
             </h2>
             <p className="mt-2.5 text-[17px] font-normal leading-[26px] text-[#A7ACB8]">
               Every class mixes a short idea, a tutor demo and a lot of hands-on making.
@@ -738,8 +735,8 @@ export function TabletView() {
         {/* Download Curriculum PDF Button */}
         <div className="mt-7 flex justify-center">
           <a
-            href="/downloads/LvlUp-Eight-Week-Curriculum.pdf"
-            download="LvlUp Eight-Week Curriculum.pdf"
+            href="/downloads/Thinkova-Eight-Week-Curriculum.pdf"
+            download="Thinkova Eight-Week Curriculum.pdf"
             className="flex h-[47px] w-[266px] items-center justify-center gap-2 rounded-[8px] border border-[#2B2E36] bg-white text-[15px] font-semibold text-[#0B0C0F] shadow-xs hover:border-[#FF6B2C] hover:bg-[#FFFDF7] transition"
           >
             <Download className="size-4 text-[#FF6B2C]" />
@@ -815,7 +812,7 @@ export function TabletView() {
         <ScrollReveal>
           <div>
             <h2 className="font-display text-[36px] font-normal leading-[41px] tracking-[-0.015em] text-[#0B0C0F]">
-              Is LvlUp right for your child?
+              Is Thinkova right for your child?
             </h2>
           </div>
         </ScrollReveal>
@@ -1033,7 +1030,7 @@ export function TabletView() {
                   </div>
                   <div className="flex items-center gap-1.5">
                     <Check className="size-3.5 text-[#FF6B2C]" />
-                    <span>LvlUp trained</span>
+                    <span>Thinkova trained</span>
                   </div>
                 </div>
               </div>
@@ -1063,7 +1060,7 @@ export function TabletView() {
                   </div>
                   <div className="flex items-center gap-1.5">
                     <Check className="size-3.5 text-[#FF6B2C]" />
-                    <span>LvlUp trained</span>
+                    <span>Thinkova trained</span>
                   </div>
                 </div>
               </div>
@@ -1093,7 +1090,7 @@ export function TabletView() {
                   </div>
                   <div className="flex items-center gap-1.5">
                     <Check className="size-3.5 text-[#FF6B2C]" />
-                    <span>LvlUp trained</span>
+                    <span>Thinkova trained</span>
                   </div>
                 </div>
               </div>
@@ -1596,7 +1593,7 @@ export function TabletView() {
 
               {/* Subtext below button */}
               <p className="mt-3.5 text-[13px] text-[#A7ACB8]">
-                Partner school prices. Paid to LvlUp, not your school.
+                Partner school prices. Paid to Thinkova, not your school.
               </p>
             </div>
           </ScrollReveal>
@@ -1977,7 +1974,7 @@ export function TabletView() {
           <ScrollReveal>
             <div>
               <h2 className="font-display text-[44px] font-medium leading-[50px] tracking-[-0.02em] text-white">
-                Bring LvlUp to your school.
+                Bring Thinkova to your school.
               </h2>
               <p className="mt-3 text-[17px] leading-[26px] text-[#A7ACB8] max-w-[688px]">
                 We bring trained tutors, every lesson, enrolment, fees and parent updates. Your
@@ -2135,8 +2132,8 @@ export function TabletView() {
           <ScrollReveal delay={160}>
             <div className="mt-8">
               <a
-                href="/downloads/LvlUp-Eight-Week-Curriculum.pdf"
-                download="LvlUp Eight-Week Curriculum.pdf"
+                href="/downloads/Thinkova-Eight-Week-Curriculum.pdf"
+                download="Thinkova Eight-Week Curriculum.pdf"
                 className="inline-flex items-center gap-2 text-[15px] font-semibold text-white underline underline-offset-4 transition hover:text-[#FF6B2C]"
               >
                 <Download className="size-4.5" />
@@ -2159,7 +2156,7 @@ export function TabletView() {
                   Ready for level 1?
                 </h2>
                 <p className="mt-2.5 text-[16px] text-[#0B0C0F]/90 leading-relaxed">
-                  Enrol with your school code, or ask us to bring LvlUp to your school.
+                  Enrol with your school code, or ask us to Bring Thinkova to your school.
                 </p>
               </div>
               <button
@@ -2186,10 +2183,7 @@ export function TabletView() {
           <ScrollReveal>
             {/* Logo using website logo */}
             <div className="flex items-center gap-2.5">
-              <Image src="/icons/logo.svg" alt="LvlUp" width={32} height={32} priority />
-              <span className="font-display text-[22px] font-semibold tracking-[-0.03em] text-white">
-                Lvl<span className="text-[#FF6B2C]">Up</span>
-              </span>
+              <Image src="/thinkova-logo.svg" alt="Thinkova" width={139} height={34} priority className="h-8 w-auto object-contain" />
             </div>
 
             {/* Description */}
@@ -2232,7 +2226,7 @@ export function TabletView() {
 
             {/* Bottom legal line */}
             <div className="mt-6 flex flex-wrap items-center gap-x-2 gap-y-1 text-[14px] text-[#8A8F9E]">
-              <span>© 2026 LvlUp</span>
+              <span>© 2026 Thinkova</span>
               <span>·</span>
               <a href={legalLinks.privacy} className="hover:text-white transition">
                 Privacy

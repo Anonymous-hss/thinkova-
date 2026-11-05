@@ -90,8 +90,8 @@ export function EnrolSuccessView({
         {/* Buttons */}
         <div className="mt-6 sm:mt-7 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
           <a
-            href="/downloads/LvlUp-Eight-Week-Curriculum.pdf"
-            download="LvlUp Eight-Week Curriculum.pdf"
+            href="/downloads/Thinkova-Eight-Week-Curriculum.pdf"
+            download="Thinkova Eight-Week Curriculum.pdf"
             className="flex h-12 w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#ff5520] to-[#ff6b2c] px-6 text-[14px] font-semibold text-white shadow-sm transition hover:brightness-105 active:scale-95"
           >
             <span>Download the curriculum (PDF)</span>
